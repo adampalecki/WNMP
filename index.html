@@ -64,7 +64,7 @@
 			viewer.toggleSidebar();
 		});
 		
-		Potree.loadPointCloud("pointclouds/WNMP_proba1/cloud.js", "WNMP_proba1", e => {
+		Potree.loadPointCloud("pointclouds/WNMP_all/cloud.js", "WNMP", e => {
 			let pointcloud = e.pointcloud;
 			let material = pointcloud.material;
 			viewer.scene.addPointCloud(pointcloud);
