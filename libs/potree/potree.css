@@ -98,7 +98,7 @@
 	border-radius: 4px;
 	color: var(--font-color);
 	font-family: Arial;
-	opacity: 0.8;
+	opacity: 1;
 	border: 1px solid black;
 	display: flex;
 	overflow: auto;
@@ -195,7 +195,7 @@ a:hover, a:visited, a:link, a:active{
 .annotation{
 	position:		absolute;
 	padding:		10px;
-	opacity:		0.5;
+	opacity:		1;
 	transform:		translate(-50%, -30px);
 	will-change:	left, top;
 }
@@ -242,7 +242,7 @@ a:hover, a:visited, a:link, a:active{
 .annotation-item {
 	color:			white;
 	background-color: 	black;
-	opacity:		0.5;
+	opacity:		1;
 	border-radius:	1.5em;
 	font-size:		1em;
 	line-height:	1.5em;
@@ -306,7 +306,7 @@ a:hover, a:visited, a:link, a:active{
 	height:		20px;
 	filter:		invert(100%);
 	margin:		2px 2px;
-	opacity:	0.5;
+	opacity:	1;
 }
 
 

@@ -55756,7 +55756,7 @@
 
 			this.elDescriptionClose.hover(
 				e => this.elDescriptionClose.css('opacity', '1'),
-				e => this.elDescriptionClose.css('opacity', '0.5')
+				e => this.elDescriptionClose.css('opacity', '1')
 			);
 			this.elDescriptionClose.click(e => this.setHighlighted(false));
 			// this.elDescriptionContent.html(this._description);
@@ -56139,7 +56139,7 @@
 
 		setHighlighted (highlighted) {
 			if (highlighted) {
-				this.domElement.css('opacity', '0.8');
+				this.domElement.css('opacity', '1');
 				this.elTitlebar.css('box-shadow', '0 0 5px #fff');
 				this.domElement.css('z-index', '1000');
 
@@ -56149,7 +56149,7 @@
 					this.elDescription.css('position', 'relative');
 				}
 			} else {
-				this.domElement.css('opacity', '0.5');
+				this.domElement.css('opacity', '1');
 				this.elTitlebar.css('box-shadow', '');
 				this.domElement.css('z-index', '100');
 				this.descriptionVisible = false;
